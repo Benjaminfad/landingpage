@@ -1,0 +1,44 @@
+.talent-container{
+    width: 100%;
+    display: block;
+    
+}
+.talent-content{
+    display: flex;
+    margin-left: 5rem;
+    padding: 10rem 10rem;
+}
+.talent-image-container{
+    width: 50%;
+}
+.talent-image-container img{
+    width: 96%;
+}
+.talent-info{
+    width: 50%;
+    color: black;
+}
+.talent-header p{
+    word-wrap: break-word;
+    padding: 19px;
+    font-size: 17px;
+    line-height: 25px;
+}
+.talent-body{
+    padding: 19px;
+    font-size: 17px;
+}
+.talent-body img{
+    width: 50px;
+    height: 50px;
+    padding: 12px;
+    display: inline-block;
+    position: relative;
+    right:3rem;
+    top:3.5rem ;
+    right: 4rem;
+    background: rgba(34, 104, 186, 1);
+    border-radius: 35px;
+  
+   
+}

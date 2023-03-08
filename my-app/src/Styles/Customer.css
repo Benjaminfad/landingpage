@@ -1,0 +1,112 @@
+.customer-container {
+  width: 100%;
+  color: black;
+  background-color: #fff;
+}
+
+.customer-card {
+  padding: 10rem;
+}
+
+.customer-content {
+  display: flex;
+}
+
+.customer-heading {
+  width: 38%;
+  background-color: rgb(243, 114, 63);
+  padding: 5rem;
+  line-height: 50px;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+
+.customer-heading h1 {
+  color: #fff;
+  white-space: pre;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.customer-heading h2 {
+  color: #fff;
+  font-size: 45px;
+  white-space: pre-wrap;
+}
+
+.customer-heading img {
+  width: 70px;
+  height: 70px;
+  position: relative;
+  float: right;
+  left: 7rem;
+  bottom: 5.5rem;
+  background-color: #fff;
+  padding: 17px;
+  border-radius: 50px;
+  box-shadow: 2px 4px 4px 2px grey;
+}
+
+.customer-review {
+  width: 60%;
+  background-color: #fff;
+  padding: 8rem;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  box-shadow: 2px 4px 4px 2px grey;
+}
+
+.customer-paragraph p {
+  font-size: 18.7px;
+  white-space: pre-wrap;
+  font-weight: bold;
+  position: relative;
+  right: 4.5rem;
+  bottom: 2.4rem;
+  line-height: 30px;
+}
+
+.customer-paragraph img {
+  width: 70px;
+  height: 70px;
+  float: right;
+  position: relative;
+  left: 8rem;
+  bottom: 10rem;
+  background-color: #fff;
+  padding: 17px;
+  border-radius: 50px;
+  box-shadow: 2px 4px 4px 2px grey;
+}
+
+.customer-profile {
+  display: flex;
+}
+
+.customer-profile-text {
+  line-height: 30px;
+  position: relative;
+  right: 3rem;
+}
+
+.customer-profile img {
+  width: 75px;
+  position: relative;
+  right: 5rem;
+}
+
+.customer-profile-text h1 {
+  font-size: 20px;
+  position: relative;
+}
+
+.customer-profile-text p {
+  font-weight: bold;
+  position: relative;
+}
+
+.customer-sponsor img {
+  width: 100%;
+  position: relative;
+  right: 5rem;
+}/*# sourceMappingURL=Customer.css.map */

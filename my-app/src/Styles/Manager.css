@@ -1,0 +1,76 @@
+.manager-container {
+  width: 100%;
+  background-color: #fff;
+}
+
+.manager-content {
+  padding: 20px;
+}
+
+.manager-info {
+  align-items: center;
+  line-height: 50px;
+  padding: 30px;
+  color: black;
+}
+
+.manager-info h1 {
+  text-align: center;
+}
+
+.manager-info p {
+  text-align: center;
+  font-size: 18px;
+  padding: 12px;
+}
+
+.manager-card-container {
+  padding: 40px;
+}
+
+.manager-card {
+  display: flex;
+  position: relative;
+  bottom: 50px;
+  gap: 20px;
+  padding: 80px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  line-height: 30px;
+}
+
+.manager-card-details {
+  width: 32%;
+  color: black;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 2px 4px 4px 2px grey;
+}
+
+.manager-card-details p {
+  font-size: 13.3px;
+  position: relative;
+  overflow-wrap: break-word;
+  display: flex;
+  flex-wrap: wrap;
+  font-weight: bold;
+}
+
+.manager-card-details img {
+  width: 70px;
+  padding: 20px;
+  position: relative;
+  top: 30px;
+  border-radius: 45px;
+  background-color: rgb(243, 114, 63);
+}
+
+.manager-card-details h2 {
+  color: rgba(6, 38, 120, 0.85);
+  position: relative;
+  bottom: 4rem;
+  left: 4rem;
+  font-size: 20px;
+  text-align: center;
+}/*# sourceMappingURL=Manager.css.map */

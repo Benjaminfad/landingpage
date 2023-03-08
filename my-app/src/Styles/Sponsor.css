@@ -1,0 +1,56 @@
+.sponsor-container {
+  justify-content: center;
+  background-color: #fff;
+  width: 100%;
+}
+
+.sponsor-content {
+  padding: 5rem;
+}
+
+.sponsor-content h2 {
+  font-size: 25px;
+  font-weight: 600;
+  text-align: center;
+  color: black;
+}
+
+.sponsor-image {
+  display: flex;
+  padding: 12rem;
+  gap: 12rem;
+}
+
+.sponsor-image img {
+  width: 165px;
+}
+
+.nav-container {
+  position: relative;
+  left: 24rem;
+}
+
+.nav-slider-container {
+  display: flex;
+  width: 57%;
+  border-radius: 60px;
+  background-color: rgb(252, 221, 209);
+  padding: 9px;
+  justify-content: space-between;
+}
+
+.nav-slider-container > span {
+  font-size: 20px;
+  padding: 15.4px;
+  color: rgb(243, 114, 63);
+  border-radius: 30px;
+  font-weight: 600;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+.nav-slider-container > span:hover,
+.nav-slider-container > span.active {
+  background-color: rgb(243, 114, 63);
+  color: #fff;
+}/*# sourceMappingURL=Sponsor.css.map */
