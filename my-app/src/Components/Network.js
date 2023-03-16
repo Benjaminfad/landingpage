@@ -65,10 +65,10 @@ const Network = () => {
             </div>
             <div className='col'>
             <h4>Product</h4>
-            <a href="/">Technical Hiring</a>
-            <a href="/">CoreHR Software</a>
-            <a href="/">Payroll Management</a>
-            <a href="/">People Management</a>
+            <a href="/SignIn">Technical Hiring</a>
+            <a href="/Firstboard">CoreHR Software</a>
+            <a href="/Secondboard">Payroll Management</a>
+            <a href="/Verify">People Management</a>
             </div>
             <div className='col'>
             <h4>Company</h4>

@@ -60,7 +60,7 @@ const Navbar = () => {
         <select name='Companys'>
           <option>Companys</option>
         </select>
-        <a href='/'>Get Skills</a>
+        <a href='/SignUp'>Get Skills</a>
         <button className='primary-button'>Get Started
         <img src={Party} className="happy2" alt='/'/>
         </button>
