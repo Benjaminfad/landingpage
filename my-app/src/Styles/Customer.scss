@@ -1,7 +1,10 @@
+@import "./Variables/Variables.scss";
+
+
 .customer-container{
     width: 100%;  
-    color: black;
-    background-color: #fff;
+    color: $deepBlack;
+    background-color: $lightWhite;
     
 }
 .customer-card{
@@ -15,20 +18,20 @@
 .customer-heading{
     width: 38%;
     
-    background-color: rgba(243, 114, 63, 1) ;
+    background-color:$orangeColor;
     padding:5rem;
     line-height: 50px;
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;
 }
 .customer-heading h1{
-    color: #fff;
+    color: $lightWhite;
     white-space: pre;
     font-size: 20px;
     font-weight: 600;
 }
 .customer-heading h2{
-    color: #fff;
+    color: $lightWhite;
     font-size: 45px;
     white-space: pre-wrap;
     
@@ -40,18 +43,18 @@
     float: right;
     left: 7rem;
     bottom: 5.5rem;
-    background-color: #fff;
+    background-color: $lightWhite;
     padding: 17px;
     border-radius: 50px;
-    box-shadow: 2px 4px 4px 2px grey;
+    box-shadow: 2px 4px 4px 2px $lightGrey;
 }
 .customer-review{
     width: 60%;
-    background-color: #fff;
+    background-color: $lightWhite;
     padding:8rem;
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
-    box-shadow: 2px 4px 4px 2px grey;
+    box-shadow: 2px 4px 4px 2px $lightGrey;
 }
 .customer-paragraph p{
      font-size: 18.7px;
@@ -68,12 +71,11 @@
     float: right;
     position: relative;
     left: 8rem;
-    bottom: 10rem;
-    
-    background-color: #fff;
+    bottom: 10rem;  
+    background-color: $lightWhite;
     padding: 17px;
     border-radius: 50px;
-    box-shadow: 2px 4px 4px 2px grey;
+    box-shadow: 2px 4px 4px 2px $lightGrey;
 }
 .customer-profile{
     display: flex;

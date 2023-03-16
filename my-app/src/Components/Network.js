@@ -21,7 +21,7 @@ const Network = () => {
                 <div className='col-1-text'>
                 <h1>Hire Fast, Onboard Faster & Enhance Candidate<br/>Experience</h1>
                 <p>Turbo-charge your engineering team by tapping into our pool of HR<br/> resources ⚡</p>
-                <button>Join our Network <img src={Party} alt=""/></button>
+                <button>Join our Network <img src={Party} alt="" className='happy3'/></button>
                 </div> 
             </div>
         </div>

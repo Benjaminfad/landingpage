@@ -21,7 +21,7 @@ const Manager = () => {
         <div className='manager-card-details'>
         <img  src={Vector11} alt=""/>
         <h2>Recruitment & Staff Sourcing</h2>
-        <p>Hire fast and streamline recruitment 
+        <p>Hire fast and streamline recruitment<br/>
 to create best candidate experience.</p>
         </div>
         <div className='manager-card-details'>
@@ -33,7 +33,7 @@ and any device.</p>
         <div className='manager-card-details'>
         <img src={Vector17} alt="" />
         <h2>Employee Management</h2>
-        <p>Forget about spreadsheets, keep
+        <p>Forget about spreadsheets, keep<br/>
 your employee data in one place. </p>
         </div>
         <div className='manager-card-details'>
@@ -45,13 +45,13 @@ on <br/>time when the time comes</p>
         <div className='manager-card-details'>
         <img src={Vector13} alt="" />
         <h2>performance Enablement</h2>
-        <p>Modern approach to run 
+        <p>Modern approach to run<br/>
 performance review for your team.</p>
         </div>
         <div className='manager-card-details'>
         <img src={Vector14} alt="" />
         <h2>Time Tracking</h2>
-        <p>Easily clock in-out , track working 
+        <p>Easily clock in-out , track working<br/> 
 time, connect with payroll.</p>
         </div>
      </div>

@@ -1,6 +1,6 @@
 .sponsor-container{
     justify-content: center;
-    background-color: #fff;
+    background-color: $lightWhite;
     width: 100%;
  ;
    
@@ -12,13 +12,13 @@
  .sponsor-content h2{
    font-size: 25px;
    font-weight: 600;
-      text-align: center;
-      color: black;
+    text-align: center;
+  color: $deepBlack;
  }
  .sponsor-image{
    display: flex;
    padding: 12rem;
-   gap: 12rem;
+   gap: 9rem;
  }
  .sponsor-image img{
    width:165px;
@@ -32,14 +32,14 @@
   display: flex;
   width: 57%;
   border-radius: 60px;
-  background-color:  rgba(252, 221, 209, 1);
+  background-color:$creamColor;
   padding: 9px;
   justify-content: space-between;
  }
  .nav-slider-container > span{
    font-size: 20px;
    padding: 15.4px;
-   color:rgba(243, 114, 63, 1) ;
+   color:$orangeColor;
   border-radius: 30px;
    font-weight: 600;
    transition: all 0.5s ease-in-out;
@@ -47,10 +47,59 @@
  }
  .nav-slider-container >span:hover,
  .nav-slider-container >span.active{
-  background-color: rgba(243, 114, 63, 1);
-  color: #fff;
+  background-color: $orangeColor;
+  color: $lightWhite;
   
  }
-
+@media (max-width: 800px){
+      .sponsor-container{
+          width: 100%;
+          text-align: center;
+      }
+      .sponsor-content{
+        padding: 10px;
+      }
+      .sponsor-content h2{
+        font-size: 26px;
+        padding: 20px;
+        text-align: center;
+      }
+      .sponsor-image{
+        display: flex;
+        gap: 2rem;
+        flex-wrap: wrap;  
+      }
+      .sponsor-image img{
+        position: relative;
+        bottom: 10rem;
+      }
+      .nav-container{
+        position: relative;
+        width: 100%;
+        left: 2px; 
+        
+     }
+     .nav-slider-container{
+      width: 96%;
+      display: flex;
+      gap: 2px;
+      justify-content: flex-start;
+      padding: 5px;
+      position: relative;
+      bottom: 15rem;
+      text-align: center;
+      border-radius: 50px;
+      background-color:$creamColor;   
+     }
+     .nav-slider-container > span{
+       font-size: 13px;
+       white-space: pre;
+       color:$orangeColor;
+      border-radius: 30px;
+       font-weight: bold;
+       transition: all 0.5s ease-in-out;
+       cursor: pointer;
+     }
+}
 
   

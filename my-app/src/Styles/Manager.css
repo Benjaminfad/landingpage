@@ -49,8 +49,10 @@
 }
 
 .manager-card-details p {
-  font-size: 13.3px;
+  font-size: 18px;
   position: relative;
+  left: 5rem;
+  bottom: 3rem;
   overflow-wrap: break-word;
   display: flex;
   flex-wrap: wrap;
@@ -73,4 +75,21 @@
   left: 4rem;
   font-size: 20px;
   text-align: center;
+}
+
+@media (max-width: 800px) {
+  .manager-container {
+    width: 100%;
+    background-position-y: 30px;
+  }
+  .manager-content {
+    padding: 0;
+  }
+  .manager-info {
+    padding: 0;
+  }
+  .manager-info p {
+    padding: 5px;
+    line-height: 30px;
+  }
 }/*# sourceMappingURL=Manager.css.map */

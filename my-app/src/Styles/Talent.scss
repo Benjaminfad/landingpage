@@ -16,7 +16,7 @@
 }
 .talent-info{
     width: 50%;
-    color: black;
+    color: $blackColor;
 }
 .talent-header p{
     word-wrap: break-word;
@@ -33,12 +33,56 @@
     height: 50px;
     padding: 12px;
     display: inline-block;
-    position: relative;
-    right:3rem;
+    position: relative; 
     top:3.5rem ;
     right: 4rem;
-    background: rgba(34, 104, 186, 1);
-    border-radius: 35px;
-  
-   
+    background: $blue;
+    border-radius: 35px;  
+}
+@media (max-width: 800px){
+     .talent-container{
+        width: 100%;
+        
+     }
+     .talent-content{
+        width: 100%;
+         display: block;
+         position: relative;
+         bottom: 10rem;
+         margin-left: 0;
+         padding: 0;
+     }
+     .talent-header h1{
+        text-align: center;
+        font-size: 50px;
+     }
+     .talent-info{
+        width: 100%;
+     }
+     .talent-image-container{
+        width: 100%;
+    }
+    .talent-image-container img{
+        width: 80%;
+    }
+    .talent-body{
+        padding: 20px;
+    }
+    .talent-body p{
+        line-height: 25px;
+        text-align: center;
+    }
+   .talent-body img{
+        width: 40px;
+        height: 40px;
+        padding: 12px;
+        display: inline-block;
+        position: relative;
+        left: 0rem;
+        top: 0.2rem; 
+        background: $blue;
+        border-radius: 35px;  
+    }
+
+    
 }

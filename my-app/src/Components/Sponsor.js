@@ -8,6 +8,7 @@ import Sponsor3 from '../Assets/sponsor 3.png';
 import Sponsor4 from '../Assets/sponsor 4.png';
 
 
+
 const Sponsor = () => {
     const [activeTab, setActiveTab] = useState("tab1");
 
@@ -48,9 +49,9 @@ const Sponsor = () => {
      <div className="outlet">
        
           {/* content goes here */}
-          {activeTab === "tab1" ?  <Talent /> : <Software /> };
+          {activeTab === "tab1" ? <Talent /> : <Software/> };
            
-        </div>
+    </div>
         
     </div>
   )

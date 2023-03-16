@@ -1,11 +1,11 @@
 import React from 'react'
-import Navbar from './Navbar'
-import Infobar from './Infobar';
+import Navbar from '../Components/Navbar'
+import Infobar from '../Components/Infobar';
 import Background2 from '../Assets/Background2.png';
-import Sponsor from './Sponsor';
-import Manager from './Manager';
-import Customer from './Customer';
-import Network from './Network';
+import Sponsor from '../Components/Sponsor';
+import Manager from '../Components/Manager';
+import Customer from '../Components/Customer';
+import Network from '../Components/Network';
 import Party from "../Assets/party.png";
 
 
@@ -23,7 +23,7 @@ const HomePage = () => {
         There is no need to use many tools for your people management. 
 Take advantage of our all-in-one software to streamline your HR. 
         </p>
-       <button className='second-primary-button'>Get Started <img src={Party} alt="" /></button> 
+       <button className='second-primary-button'>Get Started <img src={Party} alt="" className='happy1' /></button> 
        </div>
        <div className='home-bannerImage-container'>
         <img src={Background2} alt=""/>
@@ -33,7 +33,6 @@ Take advantage of our all-in-one software to streamline your HR.
     <Manager/>
     <Customer/>
     <Network/>
-
     </div>
   )
 }

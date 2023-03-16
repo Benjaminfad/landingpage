@@ -51,7 +51,7 @@ const Navbar = () => {
   return (
     <nav>
       <div className='nav-logo-container'>
-       <img src={Logo} alt=""/>
+       <img src={Logo} alt="/"/>
       </div>
       <div className='navbar-links-container'>
        <select name='Products'>
@@ -62,7 +62,7 @@ const Navbar = () => {
         </select>
         <a href='/'>Get Skills</a>
         <button className='primary-button'>Get Started
-        <img src={Party}/>
+        <img src={Party} className="happy2" alt='/'/>
         </button>
       </div>
       <div className='navbar-menu-container'>
@@ -77,9 +77,9 @@ const Navbar = () => {
       <List>
         {menuOptions.map((item) => (
           <ListItem key={item.text} disablePadding >
-            <ListItemButton>
+            <ListItemButton >
               <ListItemIcon>{item.icon}</ListItemIcon>
-              <ListItemText primary={item.text}/>
+              <ListItemText primary={item.text} style={{color:"#fe9e0d", fontWeight:"bolder" }}/>
             </ListItemButton>
           </ListItem>
         ))}

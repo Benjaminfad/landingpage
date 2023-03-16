@@ -1,0 +1,59 @@
+.second-onboarding{
+    text-align: center;
+    width: 100%;
+}
+.onboarding-2 .contents{
+    position: relative;
+    bottom: 5rem;
+    color: black;
+}
+.content-details{
+   position: relative;
+   left: 25%;
+   bottom: 50px
+}
+.header-text{
+    line-height: 40px;
+
+}
+.header-text h1{
+    font-weight: 500;
+    font-size: 24px;
+}
+.header-text p{
+    font-weight: 400;
+    font-size: 18px;
+}
+fieldset{
+    border: 1px solid rgba(243, 114, 63, 1);
+    border-radius: 10px;
+    height: 70vh;
+    width: 50%;
+
+}
+.items{
+    padding: 25px;
+}
+.link-container{
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.links{
+    width: 100%;
+    border: 1px solid rgba(243, 114, 63, 1);
+    border-radius: 10px;
+    padding: 30px;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+.link-items{
+    display: flex;
+    justify-content: space-between;
+}
+.link-items span{
+    position: relative;
+    top: 20px;
+}
