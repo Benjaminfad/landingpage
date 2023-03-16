@@ -68,7 +68,7 @@
 }
 .spn{
     margin-left: 6%;
-    line-height: 10px;
+    line-height: 6px;
 }
 
   
@@ -86,11 +86,13 @@
 }
 .form button {
     width: 100%;
-    padding: 18px;
+    padding: 14px;
     background-color: rgb(243, 114, 63);
     border: none;
     color: #fff;
     font-size: 18px;
     border-radius: 8px;
   }
-
+.txt{
+ color: rgba(153, 153, 153, 1)
+}

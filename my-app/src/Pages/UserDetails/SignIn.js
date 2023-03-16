@@ -30,7 +30,7 @@ function SignIn() {
            <p>Forgot password</p>  
            <button>Sign In</button>
            </form>
-           <p>Dont have an account? <a href='/' className={Styles.link}>Register</a></p>
+           <p className={Styles.txt}>Dont have an account? <a href='/' className={Styles.link}>Register</a></p>
            </div>
         </div>
     </div>

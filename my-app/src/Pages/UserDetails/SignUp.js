@@ -36,7 +36,7 @@ function SignUp() {
                 <spn className={Styles.spn}>Please accept the terms and conditions</spn>    
                <button>Register</button>
                </form>
-               <p>Already have an account? <a href='/' className={Styles.link}>Sign In</a></p>
+               <p className={Styles.txt}>Already have an account? <a href='/' className={Styles.link}>Sign In</a></p>
                </div>
             </div>
         </div>

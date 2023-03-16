@@ -42,7 +42,7 @@ function Firstboard() {
                  </div>
                  </div>
                 </div>
-                <div className='card'>
+                <div className='card'style={{ backgroundColor:"" }} >
                  <div className='card-content'>
                  <div className='card-image'>
                  <img src={Folder} alt=""/>

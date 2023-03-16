@@ -17,7 +17,7 @@
 
 }
 .header-text h1{
-    font-weight: 500;
+    font-weight: 700;
     font-size: 24px;
 }
 .header-text p{
@@ -42,10 +42,11 @@ fieldset{
 }
 .links{
     width: 100%;
-    border: 1px solid rgba(243, 114, 63, 1);
+    border: 0.5px solid rgba(243, 114, 63, 1);
     border-radius: 10px;
     padding: 30px;
     font-size: 20px;
+    cursor: pointer;
     text-decoration: none;
     color: black;
 }
@@ -55,5 +56,10 @@ fieldset{
 }
 .link-items span{
     position: relative;
-    top: 20px;
+    top: 15px;
+      
+}
+.link-items .arrow{
+    position: relative;
+    right: 50px;
 }

@@ -78,4 +78,9 @@
     color: rgb(243, 114, 63);
     font-size: 17px;
     text-decoration: none;
+    font-weight: 400;
+  }
+  .txt{
+    color: rgba(153, 153, 153, 1);
+
   }

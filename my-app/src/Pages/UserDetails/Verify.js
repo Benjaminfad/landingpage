@@ -33,7 +33,7 @@ function SignUp() {
                <input type='text' placeholder='0'></input>  
                <button>Verify Email</button>
                </form>
-               <p>Didn’t Receive an OTP?  <a href='/' className={Styles.link}>Send It Again</a></p>
+               <p className={Styles.txt}>Didn’t Receive an OTP?  <a href='/' className={Styles.link}>Send It Again</a></p>
                </div>
             </div>
         </div>

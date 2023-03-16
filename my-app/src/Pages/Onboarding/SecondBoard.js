@@ -3,7 +3,7 @@ import "../../Styles/SecondBoard.css";
 import Logo from '../../Assets/ReactHQ logo.png';
 import Solid from '../../Assets/Solid.png';
 import Time from '../../Assets/Time.png';
-import Vector28 from '../../Assets/Vector28.png'
+import Vector29 from '../../Assets/Vector29.svg'
 
 
 const Secondboard = () => {
@@ -24,16 +24,17 @@ const Secondboard = () => {
             <div className='link-container'>
              <a className='links' href='/'>
               <div className='link-items'>
-             <img src={Time} alt="" width='60px' height='60vh'/>
+             <img src={Time} alt="" width='60px' height='60px'/>
              <span>Find Job</span>
-             <img src={Vector28} alt="" width='100px' height='100px' />
+             
+             <img src={Vector29} alt="" width='40px' height='20px' className='arrow' />
               </div>
              </a>
              <a className='links' href='/'>
               <div className='link-items'>
-             <img src={Solid} alt="" width='60px' height='60vh' />
+             <img src={Solid} alt="" width='60px' height='60px' />
              <span>Hire a Talent</span>
-             <img src={Vector28} alt="" width='100px' height='100px' />
+             <img src={Vector29} alt="" max-width='40px' height='20px' className='arrow'/>
               </div>
              </a>
             </div>
