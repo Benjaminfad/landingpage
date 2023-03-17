@@ -177,7 +177,8 @@ p .link {
  }
  .form input {
   width: 400px;
-  padding: 10px;
+  font-size: 17px;
+  padding: 12px;
   border-radius: 6px;
   border: 1.26px solid rgb(196, 196, 196);
   outline: none;

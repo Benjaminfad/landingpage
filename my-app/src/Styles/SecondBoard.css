@@ -76,6 +76,7 @@ fieldset {
 .link-items .arrow {
   position: relative;
   right: 50px;
+  top: 2px;
 }
 
 @media (max-width: 800px) {
