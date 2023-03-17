@@ -22,7 +22,6 @@
   }
   body {
    color: rgb(255, 255, 255);
- 
     
   }
   
@@ -239,13 +238,16 @@
   .secondary-button:hover {
     background-color: $lightOrange;
   }
-  @media  (max-width: 800px) {
+  @media  (max-width: 600px) {
     .App{
-      width: 100vw;
-      max-width:none;
+      height: 100vh;
+      width: 100%;
+      max-width: 1900px;
+      margin: 0rem auto;
     }
     body{
-      width: 100%;  
+     width: 100%;
+     min-height: 100vh;
 
     }
     .home-container{

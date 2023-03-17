@@ -259,13 +259,16 @@ button .vector {
   background-color: #fe9e0d;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 600px) {
   .App {
-    width: 100vw;
-    max-width: none;
+    height: 100vh;
+    width: 100%;
+    max-width: 1900px;
+    margin: 0rem auto;
   }
   body {
     width: 100%;
+    min-height: 100vh;
   }
   .home-container {
     width: 100%;
