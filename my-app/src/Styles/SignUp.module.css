@@ -1,5 +1,5 @@
 .Signup{
-    width: 1005;
+    width: 100%;
 }
 .container{
     display: flex;
@@ -69,9 +69,7 @@
 .spn{
     margin-left: 6%;
     line-height: 6px;
-}
-
-  
+} 
  .form .check{
     position:absolute;
     top: 29.4rem;
@@ -92,7 +90,129 @@
     color: #fff;
     font-size: 18px;
     border-radius: 8px;
-  }
+  } 
 .txt{
  color: rgba(153, 153, 153, 1)
+}
+@media  (max-width: 800px) {
+   .Signup{
+       width: 100%;
+   }
+   .container{
+    width: 100%;
+    display: block;
+    padding: 40px;
+   }
+   .left{
+    display: none;
+   }
+   .right{
+     text-align:left;
+     padding:10px;
+   }
+   .information{
+    display: inline-block
+   }
+   .header{
+    padding: px;
+    text-align: center;
+    width: 118%;
+    
+   }
+   .header h1{
+     font-size:24px;
+     text-align:center;
+     display: flex;
+     word-wrap: break-word;
+     text-indent:5px 
+   }
+   .form{
+    padding:0px;
+    margin-top:10% ;
+   }
+   .form input {
+    width: 400px;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1.26px solid rgb(196, 196, 196);
+    outline: none;
+  }
+  .form .check{
+    position:absolute;
+    top: 26.8rem;
+    left: -8.9rem;
+    font-size: 20px;
+    accent-color: rgba(243, 114, 63, 1);
+ }
+ .form .text{
+  display: inline-block;
+  line-height: 22px;
+  color: black; 
+ margin-left: 6%;
+}
+.spn{
+  margin-left: 6%;
+  line-height: 2px;
+}
+}
+@media  (max-width: 1000px) {
+  .Signup{
+      width: 100%;
+  }
+  .container{
+   width: 100%;
+   display: block;
+   padding: 40px;
+  }
+  .left{
+   display: none;
+  }
+  .right{
+    text-align:left;
+    padding:10px;
+  }
+  .information{
+   display: inline-block
+  }
+  .header{
+   padding: px;
+   text-align: center;
+   width: 118%;
+   
+  }
+  .header h1{
+    font-size:24px;
+    text-align:center;
+    display: flex;
+    word-wrap: break-word;
+    text-indent:5px 
+  }
+  .form{
+   padding:0px;
+   margin-top:10% ;
+  }
+  .form input {
+   width: 400px;
+   padding: 10px;
+   border-radius: 6px;
+   border: 1.26px solid rgb(196, 196, 196);
+   outline: none;
+ }
+ .form .check{
+   position:absolute;
+   top: 26.8rem;
+   left: -8.9rem;
+   font-size: 20px;
+   accent-color: rgba(243, 114, 63, 1);
+}
+.form .text{
+ display: inline-block;
+ line-height: 22px;
+ color: black; 
+margin-left: 6%;
+}
+.spn{
+ margin-left: 6%;
+ line-height: 2px;
+}
 }

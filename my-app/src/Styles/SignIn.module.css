@@ -79,7 +79,6 @@
 .form p{
   line-height: 27px;
   color: rgba(255, 0, 0, 1);
-  
   margin-left: 76%;
 }
 .txt{
@@ -90,4 +89,102 @@ p .link {
   color: rgb(243, 114, 63);
   font-size: 17px;
   text-decoration: none;
+}
+@media  (max-width: 800px) {
+    .container{
+      width: 100%;
+    }
+    .column{
+      width: 100%;
+      display: block;
+      padding: 42px;
+    }
+    .left{
+      display: none;
+    }
+    .right{
+      text-align:left;
+      padding:10px;
+    }
+    .information {
+      display: inline-block;
+    }
+    .header{
+      padding: px;
+      text-align: center;
+      width: 150%;
+      
+     }
+    .header h1{
+     font-size:24px;
+     text-align:center;
+     display: flex;
+     word-wrap: break-word;
+     text-indent:5px 
+   }
+   .form{
+    padding:0px;
+    margin-top:10% ;
+   }
+   .form input {
+    width: 400px;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1.26px solid rgb(196, 196, 196);
+    outline: none;
+  }
+  .form p{
+    line-height: 27px;
+    color: rgba(255, 0, 0, 1);
+    margin-left: 68%;
+  }
+}
+@media  (max-width: 1000px) {
+  .container{
+    width: 100%;
+  }
+  .column{
+    width: 100%;
+    display: block;
+    padding: 42px;
+  }
+  .left{
+    display: none;
+  }
+  .right{
+    text-align:left;
+    padding:10px;
+  }
+  .information {
+    display: inline-block;
+  }
+  .header{
+    padding: px;
+    text-align: center;
+    width: 150%;
+    
+   }
+  .header h1{
+   font-size:24px;
+   text-align:center;
+   display: flex;
+   word-wrap: break-word;
+   text-indent:5px 
+ }
+ .form{
+  padding:0px;
+  margin-top:10% ;
+ }
+ .form input {
+  width: 400px;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1.26px solid rgb(196, 196, 196);
+  outline: none;
+}
+.form p{
+  line-height: 27px;
+  color: rgba(255, 0, 0, 1);
+  margin-left: 68%;
+}
 }

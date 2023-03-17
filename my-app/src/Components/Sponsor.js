@@ -49,7 +49,7 @@ const Sponsor = () => {
      <div className="outlet">
        
           {/* content goes here */}
-          {activeTab === "tab1" ? <Talent /> : <Software/> };
+          z{activeTab === "tab1" ? <Talent /> : <Software/> };
            
     </div>
         

@@ -23,7 +23,7 @@ function SignUp() {
             <div className={Styles.right}>
                 <div className={Styles.information}>
                 <div className={Styles.header}>
-                    <h1>Join the <span>ReactHQ</span> Network</h1>
+                <h1>Join the <span>ReactHQ</span> Network</h1>
                 </div>
                <form className={Styles.form}> 
                <input type='text' placeholder='Enter Name'></input>

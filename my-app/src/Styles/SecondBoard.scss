@@ -49,7 +49,12 @@ fieldset{
     cursor: pointer;
     text-decoration: none;
     color: black;
+    transition: 0.5s;
 }
+.links:hover{
+    transform:translateX(20px) ;
+  }
+  
 .link-items{
     display: flex;
     justify-content: space-between;
@@ -62,4 +67,115 @@ fieldset{
 .link-items .arrow{
     position: relative;
     right: 50px;
+}
+@media  (max-width: 800px) {
+      .content-image img{
+        max-width:50%
+      }
+      .onboarding-2 .contents{
+        text-align: center;
+        position: relative;
+        padding: 30px;
+       
+      }
+      fieldset{
+        width: 100%;
+      }
+      .content-details{
+        position: relative;
+        left: 0%;
+        bottom: 50px
+     }
+     .header-text{
+        padding: 20px;
+     }
+     .header-text h1{
+        font-weight: 700;
+        font-size: 30px;
+    }
+    .header-text p{
+        display: inline-block;
+        width: 100%;
+        font-size: 15.5px;
+        text-align: center;
+    }
+    .items{
+        padding: 20px;
+    }
+    .link-container{
+        padding: 20px;
+        display: flex;
+       
+    }
+    .links{
+        font-size: 15px;
+    }
+    .link-items{
+        display: flex;   
+    }
+    .link-items .arrow{
+        position: relative;
+        right: 0px;
+    }
+    .link-items span{
+        position: relative;
+        padding: 7px;
+          
+    }
+
+}
+@media  (max-width: 1000px) {
+    .content-image img{
+      max-width:50%
+    }
+    .onboarding-2 .contents{
+      text-align: center;
+      position: relative;
+      padding: 30px;
+     
+    }
+    fieldset{
+      width: 100%;
+    }
+    .content-details{
+      position: relative;
+      left: 0%;
+      bottom: 50px
+   }
+   .header-text{
+      padding: 20px;
+   }
+   .header-text h1{
+      font-weight: 700;
+      font-size: 30px;
+  }
+  .header-text p{
+      display: inline-block;
+      width: 100%;
+      font-size: 15.5px;
+      text-align: center;
+  }
+  .items{
+      padding: 20px;
+  }
+  .link-container{
+      padding: 20px;
+      display: flex;
+     
+  }
+  .links{
+      font-size: 15px;
+  }
+  .link-items{
+      display: flex;   
+  }
+  .link-items .arrow{
+      position: relative;
+      right: 0px;
+  }
+  .link-items span{
+      position: relative;
+      padding: 7px;
+        
+  }
 }
