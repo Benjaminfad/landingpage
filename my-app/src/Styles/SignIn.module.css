@@ -13,21 +13,27 @@
 }
 
 .left {
-  width: 50%;
+  width: 40%;
   color: black;
   padding: 40px;
   text-align: center;
   position: relative;
-  bottom: 1rem;
+  bottom: 0.7rem;
   background: linear-gradient(93.08deg, #FFFFFF 5.3%, #FAE9E2 36.63%, #FEF6F3 72.36%, rgba(229, 245, 255, 0) 98.15%);
+}
+.left .contents{
+  position: relative;
+  bottom: 2.5rem;
+  
 }
 
 .right{
-  width: 50%;
+  width: 60%;
   line-height: 40px;
   color: black;
   padding: 80px;
   text-align: center;
+  background-color: #fff;
 }
 
 .information {
@@ -47,12 +53,16 @@
 .details p {
   font-size: 18px;
   display: inline-block;
-  width: 70%;
+  width: 90%;
   margin-top: 20px;
+}
+.details img{
+  position: relative;
+  bottom: 2rem;
 }
 
 .form {
-  padding: 30px;
+  padding: 70px;
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
@@ -60,7 +70,7 @@
 
 .form input {
   width: 100%;
-  padding: 10px;
+  padding: 14px;
   border-radius: 6px;
   border: 1.26px solid rgb(196, 196, 196);
   outline: none;
@@ -79,10 +89,11 @@
 .form p{
   line-height: 27px;
   color: rgba(255, 0, 0, 1);
-  margin-left: 76%;
+  margin-left: 79%;
 }
 .txt{
-  color:rgba(153, 153, 153, 1) 
+  color:rgba(153, 153, 153, 1) ;
+  margin-top: -8%;
 }
 
 p .link {
@@ -136,7 +147,12 @@ p .link {
   .form p{
     line-height: 27px;
     color: rgba(255, 0, 0, 1);
-    margin-left: 68%;
+    margin-left: 58%;
   }
+  .txt{
+    color:rgba(153, 153, 153, 1) ;
+    margin-top: 5%;
+  }
+  
 }
 

@@ -81,6 +81,7 @@ fieldset{
       }
       fieldset{
         width: 100%;
+        height: 80vh;
       }
       .content-details{
         position: relative;
@@ -95,8 +96,8 @@ fieldset{
         font-size: 30px;
     }
     .header-text p{
-        display: inline-block;
-        width: 100%;
+        display: flex;
+        line-height: 30px;
         font-size: 15.5px;
         text-align: center;
     }
@@ -114,68 +115,17 @@ fieldset{
     .link-items{
         display: flex;   
     }
+    .link-items .link-img{
+        width: 50px;
+    }
     .link-items .arrow{
         position: relative;
         right: 0px;
     }
     .link-items span{
         position: relative;
-        padding: 7px;      
+        padding: 0px;   
+        
     }
 
-}
-@media  (max-width: 1000px) {
-    .content-image img{
-      max-width:50%
-    }
-    .onboarding-2 .contents{
-      text-align: center;
-      position: relative;
-      padding: 30px;
-     
-    }
-    fieldset{
-      width: 100%;
-    }
-    .content-details{
-      position: relative;
-      left: 0%;
-      bottom: 50px
-   }
-   .header-text{
-      padding: 20px;
-   }
-   .header-text h1{
-      font-weight: 700;
-      font-size: 30px;
-  }
-  .header-text p{
-      display: inline-block;
-      width: 100%;
-      font-size: 15.5px;
-      text-align: center;
-  }
-  .items{
-      padding: 20px;
-  }
-  .link-container{
-      padding: 20px;
-      display: flex;
-     
-  }
-  .links{
-      font-size: 15px;
-  }
-  .link-items{
-      display: flex;   
-  }
-  .link-items .arrow{
-      position: relative;
-      right: 0px;
-  }
-  .link-items span{
-      position: relative;
-      padding: 7px;
-        
-  }
 }

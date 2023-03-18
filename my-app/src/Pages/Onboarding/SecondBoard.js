@@ -24,7 +24,7 @@ const Secondboard = () => {
             <div className='link-container'>
              <a className='links' href='/'>
               <div className='link-items'>
-             <img src={Time} alt="" width='60px' height='60px'/>
+             <img src={Time} alt="" width='60px' height='60px' className='link-img'/>
              <span>Find Job</span>
              
              <img src={Vector29} alt="" width='40px' height='20px' className='arrow' />
@@ -32,7 +32,7 @@ const Secondboard = () => {
              </a>
              <a className='links' href='/'>
               <div className='link-items'>
-             <img src={Solid} alt="" width='60px' height='60px' />
+             <img src={Solid} alt="" width='60px' height='60px' className='link-img' />
              <span>Hire a Talent</span>
              <img src={Vector29} alt="" max-width='40px' height='20px' className='arrow'/>
               </div>

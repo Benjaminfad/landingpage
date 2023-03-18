@@ -12,7 +12,7 @@ function SignUp() {
             <div className={Styles.left}>
                 <div className={Styles.contents}>
                     <div className={Styles.logo}>
-                    <img  src={Logo} alt="" width="200px"/>
+                    <img  src={Logo} alt="" width="250px"/>
                     </div>
                     <div className={Styles.details}>
                         <img src={Group10} alt="" width="400px"/>

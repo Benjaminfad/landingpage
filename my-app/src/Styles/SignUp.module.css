@@ -11,27 +11,37 @@
     
 }
 .left{
-    width: 50%;
+    width: 40%;
     color: black;
     padding: 40px;
     text-align: center;
     position: relative;
-    bottom: 1rem;
+    bottom: 0.8rem;
     background: linear-gradient(93.08deg, #FFFFFF 5.3%, #FAE9E2 36.63%, #FEF6F3 72.36%, rgba(229, 245, 255, 0) 98.15%);
+
+}
+.left .contents{
+  position: relative;
+  bottom: 2.5rem;
 }
 .right{
-    width: 50%;
+    width: 60%;
     line-height: 40px;
     color: black;
     padding: 80px;
     text-align: center;
+    background-color: #fff;
   }
   .details p {
     font-size: 18px;
     display: inline-block;
-    width: 70%;
+    width: 90%;
     margin-top: 20px;
-  } 
+  }
+  .details img{
+    position: relative;
+    bottom: 2rem;
+  }
   
 .information {
     display: block;
@@ -46,13 +56,13 @@
   }
   .form input {
     width: 100%;
-    padding: 10px;
+    padding: 14px;
     border-radius: 6px;
     border: 1.26px solid rgb(196, 196, 196);
     outline: none;
   }
   .form {
-    padding: 30px;
+    padding: 70px;
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
@@ -61,19 +71,21 @@
     display: inline-block;
     line-height: 27px;
     color: black; 
-   margin-left: 6%;
+   margin-left: 4%;
 }
 .text span{
     color: rgba(243, 114, 63, 1);
 }
 .spn{
-    margin-left: 6%;
+    margin-left: 4%;
     line-height: 6px;
+    color: rgba(255, 0, 0, 1);
+
 } 
  .form .check{
     position:absolute;
-    top: 29.4rem;
-    left:7.8rem;
+    top: 34.4rem;
+    left:0.5rem;
     font-size: 20px;
     accent-color: rgba(243, 114, 63, 1);
  }
@@ -89,10 +101,12 @@
     border: none;
     color: #fff;
     font-size: 18px;
-    border-radius: 8px;
+    border-radius: 6px;
   } 
 .txt{
- color: rgba(153, 153, 153, 1)
+ color: rgba(153, 153, 153, 1);
+ margin-top: -8%;
+ 
 }
 @media  (max-width: 800px) {
    .Signup{
@@ -155,6 +169,11 @@
   margin-left: 6%;
   line-height: 2px;
 }
+.txt{
+  color:rgba(153, 153, 153, 1) ;
+  margin-top: 5%;
+}
+
 }
 @media  (max-width: 1000px) {
   .Signup{
@@ -163,7 +182,7 @@
   .container{
    width: 100%;
    display: block;
-   padding: 40px;
+   padding: 25px;
   }
   .left{
    display: none;
@@ -193,7 +212,7 @@
    margin-top:10% ;
   }
   .form input {
-   width: 400px;
+   width: 300px;
    font-size: 15px;
    padding: 10px;
    border-radius: 6px;
@@ -202,8 +221,8 @@
  }
  .form .check{
    position:absolute;
-   top: 27.5rem;
-   left: -8.9rem;
+   top: 28.9rem;
+   margin-left: 9%; 
    font-size: 20px;
    accent-color: rgba(243, 114, 63, 1);
 }
@@ -215,6 +234,6 @@ margin-left: 6%;
 }
 .spn{
  margin-left: 6%;
- line-height: 2px;
+ line-height: 17px;
 }
 }
