@@ -1,0 +1,225 @@
+.container{
+    width: 100%;
+    height: 100%;
+    color: black;
+    
+    ;
+}
+.box{
+ width: 100%;
+ 
+}
+.box .content{
+    display: flex;
+    padding: 30px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    color: rgba(51, 51, 51, 1);
+    background: rgba(181, 224, 253, 1);
+  justify-content: space-between;
+}
+.content p{
+   
+    margin-left: 2%;
+}
+.content span{
+    margin-right: 2%;
+}
+ .main{
+    background-color:rgb(250, 247, 246);
+    width: 100%;
+    height: 100%;
+    color: black;
+}
+.main .context{
+    display: flex;
+    gap: 30px;
+    
+}
+.context .nav{
+    width: 22%;
+    padding: 1.5rem;
+    position: relative;
+    bottom: 24px;
+}
+.context .center{
+    width: 78%;
+    color: black;
+}
+.center .info{
+    padding: 20px;
+}
+.Header h1{
+    font-size: 20px;
+}
+.Box {
+    width: 100%;
+}
+.Item{
+    padding: 10px;
+
+}
+.Group{
+    display: flex;
+    width: 100%;
+}
+.left{
+    width:50%
+}
+.right{
+    width: 50%;
+}
+.left .card{
+    background: rgba(255, 255, 255, 1);
+    border-radius: 10PX;
+
+}
+.card .details{
+  padding: 20px;
+  margin-right: 5%;
+}
+.details h2{
+    font-size: 16px;
+}
+.Progress{
+    display: flex;
+    margin-top: 4%;
+  
+    justify-content: space-between;
+}
+.Progress p{
+    font-size: 14px;
+}
+.Progress span{
+    font-size: 14px;
+}
+.control{
+    display: block;
+    justify-content: center;
+    margin-top: 5%;
+   
+}
+.control .line{
+    width: 100%;
+    height: 4px;
+    background:rgba(217, 217, 217, 1);
+    border-radius: 2px;
+}
+.control .line span{
+    width: 20%;
+    height: 4px;
+    margin-top:-2px;
+    border-radius: 4px;
+   background: rgba(243, 114, 63, 1);
+   display: block
+    ;
+}
+.fill{
+    width: 100%;
+    padding: 20px;
+}
+form{
+    display: inline-block;
+    width: 20px;   
+    
+}
+form input{
+    width: 15px;
+    height: 15px;
+    padding: 10px;
+    border-radius: 30px;
+  accent-color:rgba(243, 114, 63, 1);
+ clip-path:ellipse(30);
+}
+
+form label{
+    font-size: 13px;
+    display: inline-block;
+    width: 200px;
+    margin-left: 2rem;
+    position: relative;
+    bottom: 1.4rem;
+    
+     
+}
+.right .context{
+    padding: 50px;
+     display: block;
+     gap: 20rem;
+     
+}
+.right .context .bar{
+    background: rgba(255, 244, 240, 1);
+    position: relative;
+    bottom: 3.3rem;
+
+}
+.content .bar{
+    border-radius: 10px;
+    
+}
+.bar .details{
+    padding: 40px;
+    line-height: 30px;
+}
+.context .bar .details h2{
+    font-size: 16px;
+    color: rgba(243, 114, 63, 1);
+
+}
+.right .context .bar .details p{
+    font-size: 14px;
+    color: rgba(243, 114, 63, 1);
+
+}
+.form{
+    line-height: 27px;
+}
+.form input{
+    position: relative;
+    top: 10px;
+    
+}
+.form label{
+    font-weight: 500;
+}
+
+.bars{
+    background: rgba(255, 244, 240, 1);
+}
+.bars .details{
+    padding: 30px;
+    line-height: 30px;
+}
+.bars .details h2{
+    color: rgba(243, 114, 63, 1);
+}
+.Suggestions{
+    
+    color: black;
+}
+.One{
+    display: flex;
+    gap: 20px;
+
+}
+.One .text h3{
+    color: black;
+    font-size: 16px;
+
+}
+.Two{
+    display: flex;
+    gap:20px;
+    position:relative;
+    top:6px
+}
+.text p{
+   color: rgba(153, 153, 153, 1);
+   font-size: 15px;
+}
+.Two .text h3{
+    color: black;
+    font-size: 16px;
+}

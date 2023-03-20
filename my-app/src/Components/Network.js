@@ -10,8 +10,8 @@ import Party from "../Assets/party.png";
 
 const Network = () => {
   return (
-    <div className='network-container'style={{ backgroundImage:`url(${Ellipse})`,backgroundRepeat:"no-repeat",backgroundSize:"", backgroundPositionX:"38rem", backgroundPositionY:"10rem",  }} >
-        <div className='network-content-container'>
+    <div className='network-container' >
+        <div className='network-content-container' style={{ backgroundImage:`url(${Ellipse})`,backgroundRepeat:"no-repeat",backgroundSize:"", backgroundPositionX:"38rem", backgroundPositionY:"10rem",  }}>
         <div className='network-col'>
         <div className='col-1'>
             <div className='col-1-content'>

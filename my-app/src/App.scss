@@ -10,6 +10,8 @@
     height: auto;
   }
   .App {
+    display: flex;
+    position: relative;
     min-height: 100vh;
     width: 100vw;
     max-width: 1900px;
@@ -24,218 +26,22 @@
    color: rgb(255, 255, 255);
     
   }
+  ::-webkit-scrollbar{
+    width: 10px;
+  }
+  /* Track */
+  ::-webkit-scrollbar-track{
+     background: #e0e0e0e0;
+  }
+  /* Handle */
+  ::-webkit-scrollbar-thumb{
+    background: #888;
+  }
+  /* Handle on Hover */
+  ::-webkit-scrollbar-track:hover{
+    background: #555;
+  }
   
-  nav {
-  display: flex;
-  position: relative;
-  bottom: 7rem;
-  padding: 80px;
-     
-  }
-  .nav-logo-container img{
-    width: 80%;
-  }
-   .nav-info-container{
-     background-color: lightskyblue;
-     width: 100%;
-     text-align: center;
-   
-   }
-   .nav-info-icon{
-    display: flex;
-    gap: 45px;
-    align-items: center;
-    margin-left: 29rem;
-    padding: 12px;   
-   }
-   .nav-info-icon p{
-    font-size: 17px;
-    color: #fff;
-   }
-   .nav-info-icon .happy{
-     position: relative;
-     left:40px;
-   }
-   .nav-info-icon .info-button{
-    padding: 0.9rem 1.10rem;
-    background-color: white;
-    color:rgba(13, 117, 188, 1);
-    outline: none;
-    border: none;
-    border-radius: 13px;
-    font-size: 15px;
-    cursor: pointer;
-    font-weight: 600;
-    transition: 0.2s;
-   }
-   button .vector{
-     width: 25px;
-     margin-left: 23px;
-   }
-  .navbar-menu-container {
-    display: none;
-  }
-  .navbar-links-container {
-    display: flex;
-    gap: 3rem;  
-    margin-right: 3rem;
-    text-decoration: none;
-    color: black;
-    
-  }
-  .navbar-links-container a{
-    text-decoration: none;
-    font-size: 17px;
-    white-space: pre;
-    color: $orangeColor;
-    position: relative;
-    top: 7rem;
-    font-weight: 600;
-  }
-  .navbar-links-container select{
-    outline: none;
-    color:$orangeColor;
-    font-size: 17px;
-    font-weight: 600;
-    background-color: transparent;
-    border: none;
-  }
-  .primary-button {
-    padding:0.9rem 1.5rem ; 
-    background-color:$orangeColor;
-    color: #fff;
-    width: 50%;
-    text-align: center;
-    height: 51px;
-    border: none;
-    position: relative;
-    top: 6rem;
-    left: 25rem;
-    border-radius: 10px;
-    font-size:1.1rem;
-    cursor: pointer;
-    font-weight: 600;
-    transition: 0.5s;
-  }
-  .primary-button .happy2{
-    width: 14%;
-    position: relative;
-    top: 3px;
-    left: 5px;
-  }
-  .second-primary-button{
-       padding: 0.9rem 1.5rem;
-        background-color:$orangeColor;
-        color: #fff;
-        outline: none;
-        border: none;
-       position: relative;
-       right: 13.3rem;      
-        border-radius: 10px;
-        font-size: 1.2rem;
-        cursor: pointer;
-        font-weight: 600;
-        transition: 0.5s;
-  }
-  .second-primary-button .happy1{
-    width: 18px;
-    position: relative;
-    top: 2px;
-    left: 5px;
-  }
-  .primary-button:hover{
-    transform: translateY(-10px);
-  }
-  .second-primary-button:hover{
-    transform: translateY(10px);
-
-  }
-  .navbar-cart-icon {
-    font-size: 1.15rem;
-  }
-  .navbar-menu-container svg {
-    font-size: 1.5rem;
-    cursor: pointer;
-  }
-  .home-container{
-    width: 100%;
-    height: 50vh;
-
-  }
-  .home-banner-container {
-    width: 100%;
-    display: flex;
-    padding: 4rem;
-    text-align: center;
-  }
-  .home-bannerImage-container {
-    text-align: center;
-      
-  }
-  .home-bannerImage-container img{
-    width: 80%;
-    position: relative;
-    bottom: 19rem;
-  }
-  .home-text-section{
-    text-align: center;
-    position: relative;
-    line-height: 88px;
-    bottom: 18rem;
-    padding: 4rem;
-
-  }
-  .home-text-section h1{
-    text-align: left;
-    line-height: 65px;
-    font-size: 56px;
-    font-family: bold;
-    color: black;
-    word-wrap: break-word;
-     
-   
-}
-.home-text-section p{
-    font-size: 16.5px;
-    line-height: 23px;
-    font-weight: bold;
-    color: black;
-}
-.home-text-section h1 span{
-    color:$orangeColor;
-    
-    ;
-}
-  .primary-heading {
-    font-size: clamp(2rem, 5vw, 4rem);
-    color: #4c4c4c;
-    /* line-height: 5rem; */
-    max-width: 600px;
-  }
-  .primary-text {
-    font-size: clamp(1rem, 3vw, 1.5rem);
-    max-width: 500px;
-    color: #6a6a6a;
-    margin: 1.5rem 0rem;
-  }
-  .secondary-button {
-    padding: 1rem 2.5rem;
-    background-color: $lightOrange;
-    outline: none;
-    border: none;
-    border-radius: 5rem;
-    font-size: 1.1rem;
-    cursor: pointer;
-    font-weight: 600;
-    color: white;
-    transition: 0.2s;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .secondary-button:hover {
-    background-color: $lightOrange;
-  }
   @media  (max-width: 600px) {
     .App{
       height: 100vh;
@@ -248,102 +54,4 @@
      min-height: 100vh;
 
     }
-    .home-container{
-      width: 100%;
-      
-    }
-    .nav-info-container {
-      width: 100%;
-      text-align: center;
-    }
-    .nav-info-icon{
-      display: flex;
-      gap:5px ;
-      margin-left: -20px;  
-    }
-    .nav-info-icon p{
-      font-size: 14px;
-      font-weight: bolder;
-    }
-    .nav-info-icon .happy {
-     width: 15px;
-     position: relative;
-     bottom: 25px;
-
-    }
-    .nav-info-icon .info-button{
-      padding: 0.9rem 1.10rem;
-      background-color: white;
-      color:rgba(13, 117, 188, 1);
-      outline: none;
-      border: none;
-      position: relative;
-      border-radius: 13px;
-      font-size: 10.2px;
-      cursor: pointer;
-      font-weight: 800;
-      transition: 0.2s;
-    }
-    .navbar-links-container{
-      display: none;
-    }
-    button .vector{
-      width: 12px;
-      position: relative;
-      right: 10px;
-    }
-    nav{
-      display: flex;
-      padding: 2.4rem;
-      gap: 5rem;
-      margin-top: 3rem;   
-      
-    }
-    .navbar-menu-container{
-         display: block; 
-         position: relative;
-         top: 4.1rem;
-         color:black;
-    }
-    .nav-logo-container img{
-         width: 53%;
-    }
-    .home-banner-container{
-      width: 100%;
-      display: block;
-    }
-    .home-text-section{
-      width: 100%;
-      margin-top: 35px;
-      line-height: 20px;
-    }
-    .home-text-section h1{
-       display: block;
-       text-align:  center;
-       line-height: 36px;
-       font-weight: bolder;
-       font-size: 34px;   
-    }
-    .home-text-section p{
-       text-align: center;
-       font-weight: 300;
-       color: #6a6a6a;
-       line-height: 18px;
-       font-size: 17px;
-       font-stretch:ultra-expanded;
-       
-    }
-    .second-primary-button{
-       text-align: center;
-       position: relative;
-       left: 0;
-       text-align: center;
-    }
-  
-    .home-bannerImage-container img{
-      width: 800px;
-      position:relative;
-      text-align: center;
-    }
-
   }

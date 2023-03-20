@@ -53,6 +53,7 @@
 .details p {
   font-size: 18px;
   display: inline-block;
+  font-weight: 600;
   width: 90%;
   margin-top: 20px;
 }
@@ -89,6 +90,7 @@
 .form p{
   line-height: 27px;
   color: rgba(255, 0, 0, 1);
+  font-weight: 600;
   margin-left: 79%;
 }
 .txt{
