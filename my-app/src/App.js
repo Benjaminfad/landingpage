@@ -17,6 +17,7 @@ import Interview from "././Pages/Interview"
 import Jobs from "././Pages/Jobs"
 import Resume from "././Pages/Resume"
 import Skill from "././Pages/Skill"
+import SubHome from "././Pages/Home/SubHome";
 
 
 
@@ -43,6 +44,7 @@ function App() {
     <Route path='/jobs' element={<Jobs />} />  
      <Route path='/resume' element={<Resume/>} />  
      <Route path='/skill' element={<Skill/>} />
+     <Route path="/home/SubHome"  element={<SubHome/>}></Route>
        
       </Routes>  
     </div>

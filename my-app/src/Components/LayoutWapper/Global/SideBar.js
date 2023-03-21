@@ -3,8 +3,6 @@ import { ProSidebar, Menu, MenuItem } from "react-pro-sidebar";
 import { Box, Button, IconButton, Typography, useTheme } from "@mui/material";
 import { Link } from "react-router-dom";
 import "react-pro-sidebar/dist/css/styles.css";
-import { tokens } from "../../../Theme";
-
 import HomeIcon from '@mui/icons-material/Home';
 import ForumIcon from '@mui/icons-material/Forum';
 import EventIcon from '@mui/icons-material/Event';
@@ -16,14 +14,11 @@ import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 
 
 const Item = ({ title, to, icon, selected, setSelected }) => {
-  const theme = useTheme();
-  const colors = tokens(theme.palette.mode);
+
   return (
     <MenuItem
       active={selected === title}
-      style={{
-        color: colors.grey[100],
-      }}
+     
       onClick={() => setSelected(title)}
       icon={icon}
     >
@@ -59,15 +54,16 @@ const Sidebar = () => {
           color:" rgba(174, 171, 216, 1)"
         },
         "& .pro-inner-item:hover": {
-          color: "#fff !important",
+           color: "#fff !important",
           backgroundColor:" rgba(243, 114, 63, 1)",
           borderRadius:"12.30px"
         },
-        "& .pro-menu-item.active": {
-          color: "#fff !important",
-          backgroundColor:" rgba(243, 114, 63, 1) "
-
-        },
+        "& .pro-inner-item.active": {
+          color: "red !important",
+         backgroundColor:" rgba(243, 114, 63, 1)",
+         borderRadius:"12.30px"
+       },
+                  
       }}
     >
       <ProSidebar>
@@ -81,7 +77,9 @@ const Sidebar = () => {
               icon={<HomeIcon />}
               selected={selected}
               setSelected={setSelected} 
-              style={{ fontSize:"10px"}}
+             
+              
+              
             />
 
             <Item
